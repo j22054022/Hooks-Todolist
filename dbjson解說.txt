@@ -1,0 +1,2 @@
+posts一般來說會有多個東西，故posts內為Array，而每個Array內部容器都裝object，
+在此範例中因只有data在當作傳送的資料，故data必須作為一個元素，所以index.js內body: JSON.stringify({data})需要包成object

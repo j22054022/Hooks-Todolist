@@ -1,0 +1,42 @@
+.app{
+    padding: 10px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+}
+.Edit_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.add{
+    margin: 10px 0px 10px 0px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+}
+.List{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    border-bottom: black 1px solid;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 0px 3px 0px 0px; */
+    /* 文字過多換行 */
+    word-wrap:break-word;
+    /* 文字過多換行 */
+    word-break:break-all;
+    
+}
+.remove{
+    /* border: none; */
+    height: 35px;
+    margin: 0px 0px 3px 0px;
+    background-color: rgb(226, 67, 19);
+    color: white;
+}
